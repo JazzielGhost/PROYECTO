@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservar Ahora</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/reservar.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+    <main>
+        <header class="header">
+            <h1 class="header__logo">Fielder<span>Community</span></h1>
+            <figure>
+              <img id="btn-menu" src="images/burguer__menu.png" alt="">
+            </figure>
+            <nav class="navbar">
+              <ul>
+                <li><a href="/desktop-web/project-fc/index.html">Inicio</a></li>
+                <li><a href="/desktop-web/project-fc/#campos">Campos</a></li>
+                <li><a href="/desktop-web/project-fc/#eventos">Eventos</a></li>
+                <li><a href="/MC/IndexField.html">Mi Cuenta</a></li>
+               <a href="/conf/index.html"><img id="btn-settings" src="images/settings__menu.png" alt=""></a> 
+               <a href="/pilot-fielder_community/index.html"><img id="btn-logout" src="images/logout__menu.png" alt=""></a>
+              </ul>
+            </nav>
+          </header>
+
+          <section id="contacto">
+            <form class="formulario" action="" method="post">
+                <fieldset>
+                    <legend>Reserva tu campo llenando los datos</legend>
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label>Nombre:</label>
+                            <input class="input-text" name="nombre" type="text" placeholder="Escribe tu nombre" required>
+                        </div>
+                        
+                        <div class="campo">
+                            <label>Teléfono:</label>
+                            <input class="input-text" name="telefono" type="tel" placeholder="Escribe tu número telefónico"> 
+                        </div>
+                        
+                        <div class="campo">
+                            <label>Correo:</label>
+                            <input class="input-text" name="email" type="email" placeholder="Escribe tu correo electrónico" required>
+                        </div>
+
+                        <div class="campo">
+                            <label>Asunto:</label>
+                            <input class="input-text" name="asunto" type="text" placeholder="Escribe el asunto del correo" required>
+                        </div>
+                        
+                        <div class="campo">
+                            <label>Mensaje:</label>
+                            <textarea class="input-text" name="descripcion" placeholder="Escribe tu mensaje" required></textarea>
+                        </div>
+                    </div>
+                    
+                    <div class="enviar">
+                        <input class="btn-send" type="submit" value="Enviar">
+                    </div>
+                    
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+    
+</body>
+</html>

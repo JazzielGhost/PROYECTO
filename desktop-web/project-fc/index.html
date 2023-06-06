@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inicio</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/normalize.css">
+</head>
+
+<body>
+  <main class="container">
+    <header class="header">
+      <h1 class="header__logo">Fielder<span>Community</span></h1>
+      <figure>
+        <img id="btn-menu" src="images/burguer__menu.png" alt="">
+      </figure>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#campos">Campos</a></li>
+          <li><a href="#eventos">Eventos</a></li>
+          <li><a href="/MC/IndexField.html">Mi Cuenta</a></li>
+         <a href="/conf/index.html"><img id="btn-settings" src="/desktop-web/project-fc/images/settings__menu.png" alt=""></a> 
+         <a href="/pilot-fielder_community/index.html"><img id="btn-logout" src="/desktop-web/project-fc/images/logout__menu.png" alt=""></a>
+        </ul>
+      </nav>
+    </header>
+
+      <div id="particles-js"></div>
+      <section class="hero">
+        <article class="hero__container">
+          <div class="hero__info">
+            <p>Bienvenido(a) a</p>
+            <h2>Fielder Community</h2>
+            <p>Explora, reserva y vive la experiencia deportiva perfecta.</p>
+          </div>
+          <a class="hero__btn" href="#campos">Explorar Campos</a>
+        </article>
+      </section>
+
+    <section class="campos" id="campos">
+      <div class="campos__elementos">
+        <h2>Campos</h2>
+        <div class="campos__busqueda">
+          <input type="search" name="barra-campos" id="barra-campos" placeholder="Ingrese el nombre del campo" />
+          <input type="submit" value="Buscar">
+        </div>
+
+      </div>
+      <article class="campos__container">
+        <div class="card" href="#">
+          <img class="campos__imagen" src="images/campo1.jpg" alt="Campo1" />
+          <div class="card__info">
+            <h3>Camp Nou</h3>
+            <h4 class="estado">Disponible</h4>
+            <p>Blvd. Abasolo, entre Calle Lima y Calle C</p>
+            <p>Calificación</p>
+            <a href="reservar.html">Reservar Ahora</a>
+            <a class="btn-info" href="campo.html">Más Información</a>
+          </div>
+        </div>
+        <div class="card" href="#">
+          <img class="campos__imagen" src="images/campo2.jpg" alt="Campo1" />
+          <div class="card__info">
+            <h3>Santiago Bernabeu</h3>
+            <h4 class="estado ocupado">No Disponible</h4>
+            <p>Blvd. Abasolo, entre Calle Lima y Calle C</p>
+            <p>* * *</p>
+            <a href="#">Reservar Ahora</a>
+            <a class="btn-info" href="campo.html">Más Información</a>
+          </div>
+        </div>
+        <div class="card" href="#">
+          <img class="campos__imagen" src="images/campo3.jpg" alt="Campo1" />
+          <div class="card__info">
+            <h3>Estadio Azteca</h3>
+            <h4 class="estado">Disponible</h4>
+            <p>Blvd. Abasolo, entre Calle Lima y Calle C</p>
+            <p>*</p>
+            <a href="#">Reservar Ahora</a>
+            <a class="btn-info" href="campo.html">Más Información</a>
+          </div>
+        </div>
+        <div class="card" href="#">
+          <img class="campos__imagen" src="images/campo4.jpg" alt="Campo1" />
+          <div class="card__info">
+            <h3>Estadio Maracaná</h3>
+            <h4 class="estado">Disponible</h4>
+            <p>Blvd. Abasolo, entre Calle Lima y Calle C</p>
+            <p>* * * * *</p>
+            <a href="#">Reservar Ahora</a>
+            <a class="btn-info" href="campo.html">Más Información</a>
+          </div>
+        </div>
+        <div class="card" href="#">
+          <img class="campos__imagen" src="images/campo5.jpg" alt="Campo1" />
+          <div class="card__info">
+            <h3>Estadio VegasFC</h3>
+            <h4 class="estado ocupado">No Disponible</h4>
+            <p>Blvd. Abasolo, entre Calle Lima y Calle C</p>
+            <p>* * *</p>
+            <a href="#">Reservar Ahora</a>
+            <a class="btn-info" href="campo.html">Más Información</a>
+          </div>
+        </div>
+        <div class="card" href="#">
+          <img class="campos__imagen" src="images/campo6.jpg" alt="Campo1" />
+          <div class="card__info">
+            <h3>Estadio UABCS</h3>
+            <h4 class="estado">Disponible</h4>
+            <p>Blvd. Abasolo, entre Calle Lima y Calle C</p>
+            <p>* * * *</p>
+            <a href="#">Reservar Ahora</a>
+            <a class="btn-info" href="campo.html">Más Información</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section id="eventos" class="eventos">
+      <h2 class="eventos__titulo">Eventos</h2>
+      <article class="eventos__container">
+        <div href="#" class="card evento">
+          <img class="eventos__imagen" src="images/evento1.jpg" alt="evento" />
+          <div class="card__info">
+            <h3>Torneo Coca Cola</h3>
+            <p>Estadio UABCS</p>
+            <a class="btn-bases" href="#">Ver Bases</a>
+          </div>
+        </div>
+        <div href="#" class="card evento">
+          <img class="eventos__imagen" src="images/evento2.jpg" alt="evento" />
+          <div class="card__info">
+            <h3>Trofeo del barrio</h3>
+            <p>Estadio Maracaná</p>
+            <a class="btn-bases" href="#">Ver Bases</a>
+          </div>
+        </div>
+        <div href="#" class="card evento">
+          <img class="eventos__imagen" src="images/evento3.jpg" alt="evento" />
+          <div class="card__info">
+            <h3>Miramar Tournament</h3>
+            <p>Camp Nou</p>
+            <a class="btn-bases" href="#">Ver Bases</a>
+          </div>
+        </div>
+        <div href="#" class="card evento">
+          <img class="eventos__imagen" src="images/evento4.jpg" alt="evento" />
+          <div class="card__info">
+            <h3>Tenis tournament</h3>
+            <p>Estadio VegasFC</p>
+            <a class="btn-bases" href="#">Ver Bases</a>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <h1 class="header__logo--footer">Fielder<span>Community</span></h1>
+
+    <nav class="navbar">
+      <ul>
+        <li><a href="#">fieldercommunity@gmail.com</a></li>
+        <li><a href="#">612-132-0728</a></li>
+        <li><a href="#">612-132-0728</a></li>
+        <li><a href="#">612-132-0728</a></li>
+        <li><a href="#">612-132-0728</a></li>
+        <li><a href="#">Carretera al sur KM 5.5, La Paz, Baja California Sur, México</a></li>
+      </ul>
+    </nav>
+    <p class="texto__copyright">Todos los derechos reservados a Fielder Community 2023©</p>
+  </footer>
+
+
+  <script src="particles.min.js"></script>
+  <script src="particlesjs-config.json"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
